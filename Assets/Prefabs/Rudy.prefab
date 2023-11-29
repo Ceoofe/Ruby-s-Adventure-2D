@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 4604567663398038576}
   - component: {fileID: 2418473564339873094}
   - component: {fileID: 853867777850320654}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Rudy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -101,6 +101,7 @@ MonoBehaviour:
   speed: 3
   maxHealth: 5
   timeInvincible: 2
+  projectilePrefab: {fileID: 5422732856420319369, guid: e83825a104d004b7da2344ec15eefcfe, type: 3}
 --- !u!50 &4604567663398038576
 Rigidbody2D:
   serializedVersion: 4
@@ -158,7 +159,7 @@ Animator:
   m_GameObject: {fileID: 3372189695867613425}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b77822e0485373d40b5beb92e9a5e728, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
