@@ -124,6 +124,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   particles: {fileID: 4999298777241116490}
+  collectedClip: {fileID: 8300000, guid: af5f8b64e3f58f24c87ff8f789b04f6c, type: 3}
 --- !u!1001 &5951565654583046546
 PrefabInstance:
   m_ObjectHideFlags: 0

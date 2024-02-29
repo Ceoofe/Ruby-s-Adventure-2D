@@ -5,6 +5,9 @@ using UnityEngine;
 public class HealthCollectible : MonoBehaviour
 {
     public ParticleSystem particles;
+
+    public AudioClip collectedClip;
+
     void OnTriggerEnter2D(Collider2D other)
     {
         RubyController controller = other.GetComponent<RubyController>();
@@ -16,6 +19,7 @@ public class HealthCollectible : MonoBehaviour
                 particles.Play();
                 controller.ChangeHealth(1);
                 Destroy(gameObject, 0.3f);
+                controller.PlaySound(collectedClip);
             }
         }
     }
